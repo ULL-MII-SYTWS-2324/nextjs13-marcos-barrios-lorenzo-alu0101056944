@@ -121,3 +121,9 @@ After running `npm run dev` a local netjs development server is active at `http:
 ![screenshot of the webpage](./opened_initial_ai_ui.png)
 
 It is meant to automatically call the POST router at `api/completion/route.ts` on each typed character, but in this case an OpenAI key is missing so nothing happens.
+
+## Deploying to vercel
+
+Cannot deploy to vercel due to the organization not being authorized to use vercel:
+
+![screenshot of vercel repo selector webpage](./cannot_deploy_to_vercel.png)
