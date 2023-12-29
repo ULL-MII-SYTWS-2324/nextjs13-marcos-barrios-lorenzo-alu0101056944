@@ -11,6 +11,7 @@ export default function Tickets() {
           <p><small>Currently open tickets.</small></p>
         </div>
       </nav>
+
       <Suspense fallback={<Loading />}>
         <TicketList />
       </Suspense>
