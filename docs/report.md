@@ -122,6 +122,26 @@ After running `npm run dev` a local netjs development server is active at `http:
 
 It is meant to automatically call the POST router at `api/completion/route.ts` on each typed character, but in this case an OpenAI key is missing so nothing happens.
 
+## Deploying to Netlify
+
+After login in and allowing access to the github repositories, the current repository was selected on the current branch:
+
+![Screenshot of first step of deploying netlify process](./deploying_netlify.png)
+
+An `OPENAI_API_KEY` environment variable was setup althought it doesn't have credit:
+
+![screenshot of environment variables section of the netlify deploy process](./netlify_env_variables.png)
+
+Finally, the deploy was requested and in progress:
+
+![screenshot of panel saying that the deploy is in progress](./deploy_in_progress.png)
+
+Finally, after waiting a bit, the deploy was completed and the URL is now accessible:
+
+![screenshot of the deployed webpage](./netlify_deploy_completed.png)
+
+This is it's url: [https://learn-next-ai--marvelous-ganache-642849.netlify.app/](https://learn-next-ai--marvelous-ganache-642849.netlify.app/)
+
 ## Deploying to vercel
 
 Cannot deploy to vercel due to the organization not being authorized to use vercel:
